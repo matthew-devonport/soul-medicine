@@ -26,10 +26,16 @@ body {
   padding-bottom: 5%;
 }
 
-.homeFlex {
+.footer {
     display: flex;
+    position: absolute;
+    right: 30%;
+    left: 30%;
     flex-direction: column;
     bottom: 0;
+    text-align: center;
+    bottom: 1%;
+    font-size: 18px;
 }
 
 .homeLinks {

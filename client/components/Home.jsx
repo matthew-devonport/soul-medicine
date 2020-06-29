@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Footer from './Footer'
 
 
 class Home extends React.Component {
@@ -15,7 +15,7 @@ class Home extends React.Component {
              <a className="gradient link">CONTACT</a>
              <a className="gradient link">SOUND</a>
             </div>
-
+            <Footer />
             </React.Fragment>
 
         )
