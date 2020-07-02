@@ -119,6 +119,7 @@ a {
      width: 80vw;
      max-width: 80vw;
      margin-top: 5%;
+     padding-bottom: 0.7%;
     }
     .link {
    font-size: 2.2vw;
@@ -127,3 +128,32 @@ a {
       font-size: 2vw;
     }
     }
+
+    @media screen and (max-width: 550px) {
+      .mainFlex {
+       margin-top: -10%; 
+      }
+
+      .mainLogo{
+      width: 90vw;
+      max-width: 90vw;
+      height: auto;
+      margin-bottom: 5%;
+      } 
+      .statement{
+      font-size: 5vw;
+      }
+      .homeLinks {    
+       width: 95vw;
+       max-width: 95vw;
+       margin-top: 5%;
+       padding-top: 1%;
+       padding-bottom: 1.2%;
+      }
+      .link {
+     font-size: 3.7vw;
+      }
+      .footer {
+        font-size: 2.8vw;
+      }
+      }
