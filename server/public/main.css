@@ -61,7 +61,7 @@ a {
     font-weight: 300;
     font-size: 1vw;
     text-align: center;
-    padding-bottom: 1%;
+    padding-bottom: 0.5%;
 }
 
 .homeLinks {
@@ -106,14 +106,53 @@ a {
 
 /* --- Contact --- */
 
+.contactHeader {
+  display: flex;
+  justify-content: center;
+}
+
 .contactLogo {
   width: 20vw;
   height: auto;
+  text-align: center;
+  margin-top: 5%;
 }
 
+.contactTitle {
+  display: flex;
+  justify-content: center;
+  color:#1d608a;
+  font-size: 2.5vw;
+}
+
+.contactBody {
+  display: flex;
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: #1d608a;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  flex-direction: row;
+  height: 38%;
+  margin-top: 2%;
+  border-radius: 25px;
+}
+
+
 .contactFlex {
-display: flex;
-flex-wrap: wrap;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+padding-top: 3%;
+}
+
+.contactLink {
+
+}
+
+.footerFlex {
+  display: flex;
+  justify-content: center;
 }
 
 
