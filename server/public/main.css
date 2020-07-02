@@ -104,6 +104,20 @@ a {
   }
 }
 
+/* --- Contact --- */
+
+.contactLogo {
+  width: 20vw;
+  height: auto;
+}
+
+.contactFlex {
+display: flex;
+flex-wrap: wrap;
+}
+
+
+/*--- Responsive Layout --- */
 
   @media screen and (max-width: 1100px) {
     .mainLogo{
