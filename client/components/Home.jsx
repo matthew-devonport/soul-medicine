@@ -8,11 +8,11 @@ class Home extends React.Component {
     render() {
         return (
             <React.Fragment>
-                <div className="background">
+            <div className="background">
+            <div className="mainFlex">
             <img src="./img/logo.png" alt="Main Logo" className="mainLogo"></img>
-            <div><i className="statement">"Empowering others with healing tools"</i>
+            <div className="flexStatement"><i className="statement">"Empowering others with healing tools"</i>
             </div>
-            <div className="width">
             <div className="homeLinks">
              <a className="gradient link">ABOUT</a>
              <a className="gradient link">GALLERY</a>
@@ -20,8 +20,8 @@ class Home extends React.Component {
              <a className="gradient link">MEDITATION</a>
             </div>
             </div>
-            </div>
             <Footer />
+            </div>
             </React.Fragment>
 
         )
