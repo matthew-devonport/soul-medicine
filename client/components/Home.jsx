@@ -9,13 +9,6 @@ class Home extends React.Component {
         return (
             <React.Fragment>
             <div className="background">
-            <div className="contact">
-                <div className="contactArea">
-                <img src="./img/phone.png" alt="Phone Logo" className="phoneLogo"></img>
-                    <a className="contactLink">09 9837 6288 |</a>
-                    <a className="contactLink">021 161 1540</a>
-                </div>
-            </div>
             <div className="mainFlex">
             <img src="./img/logo.png" alt="Main Logo" className="mainLogo"></img>
             <div className="flexStatement"><i className="statement">"Empowering others with healing tools"</i>
@@ -26,9 +19,9 @@ class Home extends React.Component {
              <a className="gradient link">CONTACT</a>
              <a className="gradient link">MEDITATION</a>
             </div>
-            </div>
-            </div>
             <Footer />
+            </div>
+            </div>
             </React.Fragment>
 
         )
