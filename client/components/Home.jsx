@@ -20,7 +20,9 @@ class Home extends React.Component {
              <a className="gradient link">MEDITATION</a>
             </div>
             </div>
+            <div className="footerFlex">
             <Footer />
+            </div>
             </div>
             </React.Fragment>
 

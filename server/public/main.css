@@ -146,15 +146,40 @@ a {
 padding-top: 3%;
 }
 
-.contactLink {
+/* .contactLink {
 
-}
+} */
 
 .footerFlex {
   display: flex;
   justify-content: center;
 }
 
+/* --- ABOUT --- */
+
+.aboutBody {
+  display: flex;
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: #1d608a;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  flex-direction: row;
+  height: auto;
+  margin-top: 2%;
+  border-radius: 25px;
+}
+
+.bodyMargin {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.bodyText {
+  font-size: 20px;
+}
 
 /*--- Responsive Layout --- */
 
