@@ -157,6 +157,20 @@ padding-top: 3%;
 
 /* --- ABOUT --- */
 
+.aboutLogo {
+  width: 16vw;
+  height: auto;
+  text-align: center;
+  margin-top: 5%;
+}
+
+.aboutTitle {
+  display: flex;
+  justify-content: center;
+  color:#1d608a;
+  font-size: 2vw;
+}
+
 .aboutBody {
   display: flex;
   margin-left: 10%;
@@ -178,7 +192,7 @@ padding-top: 3%;
 }
 
 .bodyText {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 /*--- Responsive Layout --- */
