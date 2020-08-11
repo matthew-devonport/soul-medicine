@@ -144,6 +144,9 @@ a {
 padding-top: 3%;
 }
 
+.footerInfo {
+  font-size: 15px;
+}
 
 .footerFlex {
   display: flex;
@@ -209,7 +212,7 @@ padding-top: 3%;
 .aboutBody {
   display: flex;
   margin-left: 10%;
-  margin-right: 5%;
+  margin-right: 10%;
   background-color: #1d608a;
   justify-content: space-evenly;
   flex-wrap: wrap;
@@ -228,6 +231,7 @@ padding-top: 3%;
 
 .bodyText {
   font-size: 16px;
+  font-weight: 400;
 
 }
 

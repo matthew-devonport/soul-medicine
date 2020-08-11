@@ -1,5 +1,6 @@
 import React from 'react'
 import Footer from './Footer'
+import { HashRouter as NavLink, Link } from 'react-router-dom';
 
 
 class About extends React.Component {
@@ -14,10 +15,10 @@ class About extends React.Component {
                         <div className="mainFlex">
                             <img src="./img/logo.png" alt="Main Logo" className="aboutLogo"></img>
                             <div className="navLinks">
-                                <a className="gradient navLink">HOME</a>
+                            <Link to="/" className="gradient navLink">HOME</Link>
                                 <a className="gradient navLink">GALLERY</a>
                                 <a className="gradient navLink">CONTACT</a>
-                                <a href="https://soulmedicine.bandcamp.com/" target="_blank">MEDITATION</a>
+                                <a href="https://soulmedicine.bandcamp.com/" target="_blank" className="gradient navLink">MEDITATION</a>
                             </div>
 
                             <div className="aboutTitle">ABOUT ME</div>
