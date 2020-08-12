@@ -17,7 +17,7 @@ class About extends React.Component {
                             <div className="navLinks">
                             <Link to="/" className="gradient navLink">HOME</Link>
                                 <a className="gradient navLink">GALLERY</a>
-                                <a className="gradient navLink">CONTACT</a>
+                                <Link to="/contact" className="gradient navLink">CONTACT</Link>
                                 <a href="https://soulmedicine.bandcamp.com/" target="_blank" className="gradient navLink">MEDITATION</a>
                             </div>
 
