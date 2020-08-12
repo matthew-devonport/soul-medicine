@@ -15,7 +15,7 @@ class Home extends React.Component {
             </div>
             <div className="homeLinks">
             <Link to="/about" className="gradient link">ABOUT</Link>
-             <a className="gradient link">GALLERY</a>
+            <Link to="/gallery" className="gradient navLink">GALLERY</Link>
              <Link to="/contact" className="gradient navLink">CONTACT</Link>
              <a href="https://soulmedicine.bandcamp.com/" target="_blank" className="gradient navLink">MEDITATION</a>
             </div>

@@ -16,7 +16,7 @@ class About extends React.Component {
                             <img src="./img/logo.png" alt="Main Logo" className="aboutLogo"></img>
                             <div className="navLinks">
                             <Link to="/" className="gradient navLink">HOME</Link>
-                                <a className="gradient navLink">GALLERY</a>
+                                <Link to="/gallery" className="gradient navLink">GALLERY</Link>
                                 <Link to="/about" className="gradient navLink">ABOUT</Link>
                                 <a href="https://soulmedicine.bandcamp.com/" target="_blank" className="gradient navLink">MEDITATION</a>
                             </div>
