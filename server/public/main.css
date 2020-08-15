@@ -170,15 +170,16 @@ a {
 
 .contactBody {
   display: flex;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 20%;
+  margin-right: 20%;
   background-color: #1d608a;
   justify-content: space-evenly;
   flex-wrap: wrap;
   flex-direction: row;
-  height: 38%;
-  margin-top: 2%;
+  height: auto;
   border-radius: 25px;
+  margin-top: 2%;
+  margin-bottom: 7.5%;
 }
 
 @media screen and (max-width: 1450px) { 
@@ -203,13 +204,15 @@ a {
 
 @media screen and (max-width: 450px) { 
   .contactBody {
-    margin-bottom: 1.5%;
+    margin-bottom: 36.5%;
+    margin-left: 5%;
+    margin-right: 5%;
   }
   }   
 
   @media screen and (max-width: 380px) { 
     .contactBody {
-      margin-bottom: 4%;
+      margin-bottom: 51%;
     }
     }  
 
@@ -389,6 +392,7 @@ width: 36vw;
   height: auto;
   margin-top: 1%;
   border-radius: 25px;
+  margin-bottom: 3%;
 }
 
 @media screen and (max-width: 1050px) { 
@@ -511,29 +515,40 @@ width: 36vw;
   }
 } 
 
+@media screen and (max-width: 450px) { 
+  .contactInfo {
+    font-size: 20px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+} 
+
 .phoneLogo {
   height: 150px;
   width: auto;
 }
 
+@media screen and (max-width: 450px) { 
+  .phoneLogo {
+    height: 100px;
+  }
+} 
+
+
 .emailLogo {
   height: 150px;
   width: auto;
-
 }
 
-.contactBody {
-  display: flex;
-  margin-left: 20%;
-  margin-right: 20%;
-  background-color: #1d608a;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-  flex-direction: row;
-  height: auto;
-  /* margin-top: 1%; */
-  border-radius: 25px;
-}
+@media screen and (max-width: 450px) { 
+  .emailLogo {
+    height: 100px;
+  }
+} 
+
+
 
 
 @media screen and (max-width: 1050px) { 
