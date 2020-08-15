@@ -505,6 +505,13 @@ width: 36vw;
       cursor: pointer;
   }
 
+  @media screen and (max-width: 450px) {
+    #popup-close {
+      margin-right: 19px;
+      margin-top: 14px;
+      font-size: 8rem;
+    }
+
   #popup-close-services {
     position: fixed;
     top: 0;
