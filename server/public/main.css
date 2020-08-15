@@ -258,12 +258,12 @@ a {
 }
 
 .phoneLogo {
-  height: 200px;
+  height: 150px;
   width: auto;
 }
 
 .emailLogo {
-  height: 200px;
+  height: 150px;
   width: auto;
 
 }
@@ -450,7 +450,22 @@ a {
 
   /* --- Gallery --- */ 
 
-  .temp {
+
+  .galleryBody {
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: #1d608a;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: 38%;
+    margin-top: 2%;
+    border-radius: 25px;
+  }
+
+
+  .picWrap {
     width: 100%;
     margin-top: 5%;
     margin-bottom: 5%;
@@ -468,17 +483,15 @@ a {
   
   .pic {
     height: 100%;
-    max-width: 20%;
+    max-width: 15%;
     margin-bottom: 10px;
-    margin: 0 10px;
     align-content: flex-start;
     vertical-align: middle;
   }
   
   .pic img { 
-    margin-top: 10px;
-    padding-left: 3%;
-    padding-right: 3%;
+    padding-left: 7%;
+    padding-right: 7%;
     width: 100%;
     align-self: flex-start;
     cursor: pointer;

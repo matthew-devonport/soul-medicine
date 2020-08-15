@@ -9,6 +9,7 @@ const images = [
     { id: 2, thumbnail: "/img/2-1.jpg", fullSize: "/img/2-2.jpg" },
     { id: 3, thumbnail: "/img/3-1.jpg", fullSize: "/img/3-2.jpg" },
     { id: 4, thumbnail: "/img/4-1.jpg", fullSize: "/img/4-2.jpg" },
+    { id: 5, thumbnail: "/img/5-1.jpg", fullSize: "/img/5-2.jpg" },
 ]
 
 
@@ -41,13 +42,12 @@ class About extends React.Component {
                                     <Link to="/about" className="gradient navLink">ABOUT</Link>
                                     <a href="https://soulmedicine.bandcamp.com/" target="_blank" className="gradient navLink">MEDITATION</a>
                                 </div>
-
                                 <div className="aboutTitle">GALLERY</div>
                             </div>
                         </div>
                     </div>
-                    <div className="contactBody">
-                        <div className="temp">
+                    <div className="galleryBody">
+                        <div className="picWrap">
                         <div className="pics">
                             {images.map((image, index) => {
                                 return (
