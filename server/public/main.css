@@ -464,6 +464,29 @@ a {
   }
 
 
+  @media screen and (max-width: 1450px) { 
+  .galleryBody {
+    margin-top: 4%;
+  }
+}
+
+
+
+.galleryTitle {
+  display: flex;
+  justify-content: center;
+  color:#1d608a;
+  font-size: 2vw;
+  margin-top: 3.5%;
+}
+
+@media screen and (max-width: 1450px) { 
+  .galleryTitle {
+    margin-top: 11.5%;
+    font-size: 3vw;
+  }
+}
+
   .picWrap {
     display: flex;
     flex-wrap: wrap;
