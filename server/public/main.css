@@ -16,6 +16,12 @@ body {
     height: 100vh;
 }
 
+@media screen and (max-width: 450px) { 
+  body {
+    height: auto;
+  }
+  } 
+
 a {
   color: white;
   text-decoration: none !important;
@@ -26,6 +32,43 @@ a {
   width: auto;
 }
 
+.homeBackground {
+    height: 100vh;
+    width: auto;
+  }
+
+  @media screen and (max-width: 450px) { 
+.homeBackground {
+      height: auto;
+    }
+    }   
+
+
+.homeFlex {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 100vw;
+  padding-bottom: 5%;
+}
+
+@media screen and (max-width: 1100px) { 
+  .homeFlex {
+        height: auto;
+        padding-bottom: 24%;
+      }
+   }  
+
+@media screen and (max-width: 550px) {
+  .homeFlex {
+    margin-top: -10%;
+    height: 100vh;
+    }
+  }
+   
 .mainFlex {
   display: flex;
   height: 100%;
@@ -43,6 +86,11 @@ a {
     margin-bottom: 1%;
 }
 
+@media screen and (max-width: 1100px) { 
+  .mainLogo {
+  margin-top: 27%;
+      }
+   }  
 
 .statement {
   font-size: 1.7vw;
@@ -53,10 +101,6 @@ a {
 
 .footer {
     display: flex;
-    position: absolute;
-    bottom: 0;
-    justify-content: center;
-    flex-direction: column;
     font-weight: 300;
     font-size: 1vw;
     text-align: center;
@@ -126,28 +170,75 @@ a {
 
 .contactBody {
   display: flex;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 20%;
+  margin-right: 20%;
   background-color: #1d608a;
   justify-content: space-evenly;
   flex-wrap: wrap;
   flex-direction: row;
-  height: 38%;
-  margin-top: 2%;
+  height: auto;
   border-radius: 25px;
+  margin-top: 2%;
+  margin-bottom: 7.5%;
 }
+
+@media screen and (max-width: 1450px) { 
+  .contactBody {
+    margin-top: 4%;
+  }
+}
+
+@media screen and (max-width: 1050px) { 
+  .contactBody {
+    margin-top: 7%;
+    margin-bottom: 26%;
+  }
+} 
+
+@media screen and (max-width: 800px) { 
+  .contactBody {
+    margin-top: 7%;
+    margin-bottom: 17%;
+  }
+} 
+
+@media screen and (max-width: 450px) { 
+  .contactBody {
+    margin-bottom: 36.5%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  }   
+
+  @media screen and (max-width: 380px) { 
+    .contactBody {
+      margin-bottom: 51%;
+    }
+    }  
 
 
 .contactFlex {
   display: flex;
   justify-content: space-evenly;
   width: 100%;
-padding-top: 3%;
+  padding-top: 3%;
 }
 
 .footerInfo {
   font-size: 15px;
 }
+
+@media screen and (max-width: 450px) { 
+  .footerInfo {
+    font-size: 11px;
+  }
+  }   
+
+  @media screen and (max-width: 380px) { 
+    .footerInfo {
+      font-size: 12px;
+    }
+    }  
 
 .footerFlex {
   display: flex;
@@ -170,6 +261,29 @@ padding-top: 3%;
   font-size: 1vw;
 }
 
+@media screen and (max-width: 1050px) { 
+  .navLinks {
+    width: 53vw;
+    font-size: 2vw;
+    padding-top: 0;
+   }
+  }
+
+  @media screen and (max-width: 450px) { 
+    .navLinks {
+      width: 70vw;
+      font-size: 3vw;
+     }
+    }
+
+    @media screen and (max-width: 380px) { 
+      .navLinks {
+        width: 80vw;
+        max-width: 80vw;
+        font-size: 3.4vw;
+       }
+      }    
+
 .navLink {
   margin-left: 2.5%;
   margin-right: 2.5%;
@@ -181,11 +295,39 @@ padding-top: 3%;
 
 /* --- ABOUT --- */
 
+
+.aboutBackground {
+  height: 100vh;
+  width: auto;
+}
+
+@media screen and (max-width: 450px) { 
+  .aboutBackground {
+    height: auto;
+  }
+  } 
+
 .aboutLogo {
   width: 16vw;
   height: auto;
   text-align: center;
   margin-top: 3%;
+}
+
+@media screen and (max-width: 1050px) { 
+.aboutLogo {
+width: 36vw;
+ }
+}
+
+@media screen and (max-width: 380px) { 
+  .aboutLogo {
+    width: 44vw;
+   }
+  }
+
+.faceWrap {
+  width: 20%;
 }
 
 .aboutTitle {
@@ -195,6 +337,27 @@ padding-top: 3%;
   font-size: 2vw;
   margin-top: 3.5%;
 }
+
+@media screen and (max-width: 1050px) { 
+  .aboutTitle {
+    font-size: 5vw;
+    margin-top: 10.5%;
+  }
+  }
+
+@media screen and (max-width: 800px) { 
+  .aboutTitle {
+    font-size: 5vw;
+  }
+  }  
+
+@media screen and (max-width: 450px) { 
+  .aboutTitle {
+    font-size: 7vw;
+    margin-top: 10.5%;
+  }
+  }
+
 
 .aboutPic {
   height: 250px;
@@ -206,9 +369,17 @@ padding-top: 3%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
-  margin-right: 2%;
+  margin-right: 13%;
 }
 
+@media screen and (max-width: 1050px) { 
+  .aboutPic {
+  visibility: hidden;
+  }
+  }
+
+
+  
 
 .aboutBody {
   display: flex;
@@ -219,9 +390,35 @@ padding-top: 3%;
   flex-wrap: wrap;
   flex-direction: row;
   height: auto;
-  /* margin-top: 1%; */
+  margin-top: 1%;
   border-radius: 25px;
+  margin-bottom: 3%;
 }
+
+@media screen and (max-width: 1050px) { 
+  .aboutBody {
+    margin-top: 5%;
+    margin-bottom: 2%;
+  }
+  }
+
+@media screen and (max-width: 800px) { 
+  .aboutBody {
+    margin-top: 4%;
+    margin-bottom: 2%;
+  }
+  }
+
+@media screen and (max-width: 450px) { 
+  .aboutBody {
+    margin-top: 7%;
+    margin-bottom: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  }
+
+  
 
 .bodyMargin {
   margin-left: 5%;
@@ -230,15 +427,56 @@ padding-top: 3%;
   margin-bottom: 2%;
 }
 
+@media screen and (max-width: 1050px) { 
+  .bodyMargin {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  }
+
 .bodyText {
   font-size: 16px;
   font-weight: 400;
+}
 
+@media screen and (max-width: 1050px) { 
+  .bodyText {
+    font-size: 21px;
+    font-weight: 300;
+    margin-top: -32%
+  }
+  }
+
+  @media screen and (max-width: 800px) { 
+    .bodyText {
+      font-size: 16px;
+      margin-top: -44%
+    }
+    }
+
+  @media screen and (max-width: 450px) { 
+    .bodyText {
+      font-size: 15px;
+      margin-top: -74%;
+    }
+  }    
+
+  @media screen and (max-width: 380px) { 
+    .bodyText {
+      font-size: 15px;
+      margin-top: -81%;
+      padding-bottom: 3%;
+    }
+    }      
+    
+.aboutFooter {
+  display: flex;
+  text-align: center;
 }
 
 /* --- CONTACT --- */
 
-.contactFlex {
+.contactTitleFlex {
   display: flex;
   height: 100%;
   flex-direction: column;
@@ -257,29 +495,67 @@ padding-top: 3%;
   margin-bottom: 1%;
 }
 
+@media screen and (max-width: 1050px) { 
+  .contactInfo {
+    font-size: 30px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+} 
+
+@media screen and (max-width: 800px) { 
+  .contactInfo {
+    font-size: 25px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+} 
+
+@media screen and (max-width: 450px) { 
+  .contactInfo {
+    font-size: 20px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+} 
+
 .phoneLogo {
-  height: 200px;
+  height: 150px;
   width: auto;
 }
+
+@media screen and (max-width: 450px) { 
+  .phoneLogo {
+    height: 100px;
+  }
+} 
+
 
 .emailLogo {
-  height: 200px;
+  height: 150px;
   width: auto;
-
 }
 
-.contactBody {
-  display: flex;
-  margin-left: 20%;
-  margin-right: 20%;
-  background-color: #1d608a;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-  flex-direction: row;
-  height: auto;
-  /* margin-top: 1%; */
-  border-radius: 25px;
-}
+@media screen and (max-width: 450px) { 
+  .emailLogo {
+    height: 100px;
+  }
+} 
+
+
+
+
+@media screen and (max-width: 1050px) { 
+  .contactColumn {
+    margin-bottom: 5%;
+  }
+} 
 
 /*--- Responsive Layout --- */
 
@@ -309,7 +585,8 @@ padding-top: 3%;
 
     @media screen and (max-width: 550px) {
       .mainFlex {
-       margin-top: -10%; 
+       margin-top: -10%;
+       height: 100vh;
       }
 
       .mainLogo{
@@ -317,6 +594,7 @@ padding-top: 3%;
       max-width: 90vw;
       height: auto;
       margin-bottom: 5%;
+      margin-top: 17%;
       } 
       .statement{
       font-size: 5vw;
@@ -414,6 +692,31 @@ padding-top: 3%;
   color: #800000;
 }
 
+@media screen and (max-width: 1050px) {
+  #popup-close {
+    margin-right: 30px;
+    margin-top: -17px;
+    font-size: 7rem;
+
+  }
+
+  #popup-close-services {
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin-right: 12px;
+    margin-top: -8px;
+    -webkit-transition: all 200ms;
+    -o-transition: all 200ms;
+    transition: all 200ms;
+    font-size: 2rem;
+    font-weight: bold;
+    text-decoration: none;
+      color: #06768d;
+      cursor: pointer;
+  }
+  }
+
 @media screen and (max-width: 600px) {
   #popup-close {
     position: absolute;
@@ -430,6 +733,14 @@ padding-top: 3%;
       color: #40E0D0;
       cursor: pointer;
   }
+}
+
+  @media screen and (max-width: 450px) {
+    #popup-close {
+      margin-right: 19px;
+      margin-top: 14px;
+      font-size: 8rem;
+    }
 
   #popup-close-services {
     position: fixed;
@@ -446,4 +757,154 @@ padding-top: 3%;
       color: #40E0D0;
       cursor: pointer;
   }
+  }
+
+  /* --- Gallery --- */ 
+
+
+  .galleryBody {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: #1d608a;
+    justify-content: space-evenly;
+    height: 38%;
+    margin-top: 2%;
+    border-radius: 25px;
+    margin-bottom: 5%;
+  }
+
+
+  @media screen and (max-width: 1450px) { 
+  .galleryBody {
+    margin-top: 4%;
+  }
+}
+
+@media screen and (max-width: 1050px) { 
+  .galleryBody {
+    height: 45%;
+    margin-top: 7%
+  }
+} 
+
+@media screen and (max-width: 450px) { 
+  .galleryBody {
+    height: 57%;
+    margin-bottom: 1.5%;
+  }
+  }   
+
+  @media screen and (max-width: 380px) { 
+    .galleryBody {
+      margin-bottom: 4%;
+    }
+    }  
+
+
+.galleryTitle {
+  display: flex;
+  justify-content: center;
+  color:#1d608a;
+  font-size: 2vw;
+  margin-top: 3.5%;
+}
+
+@media screen and (max-width: 1450px) { 
+  .galleryTitle {
+    margin-top: 11.5%;
+    font-size: 3vw;
+  }
+}
+
+@media screen and (max-width: 1050px) { 
+  .galleryTitle {
+    margin-top: 10.5%;
+    font-size: 5vw;
+   }
+  }
+
+@media screen and (max-width: 450px) { 
+  .galleryTitle {
+    font-size: 7vw;
+   }
+  }  
+
+
+
+  .picWrap {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+  }
+
+  .pics {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 20px;
+    justify-content: center;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+  
+@media screen and (max-width: 1050px) { 
+.pics {
+    margin-bottom: 2%
+  }
+}
+
+@media screen and (max-width: 380px) { 
+  .pics {
+    padding: 0 10px;
+    }
+  }
+
+  .pic {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    max-width: 20%;
+    align-content: flex-start;
+    vertical-align: middle;
+  }
+
+  @media screen and (max-width: 1050px) { 
+    .pic {
+      max-width: 30%;
+      margin-top: 5%;
+    }   
+  }  
+  
+  @media screen and (max-width: 450px) { 
+    .pic {
+      max-width: 45%;
+      margin-top: 5%;
+    }   
+  }
+  
+  @media screen and (max-width: 380px) { 
+    .pic {
+      max-width: 48%;
+    }
+    }  
+
+  .pic img { 
+    display: flex;
+    padding-left: 7%;
+    padding-right: 7%;
+    width: 100%;
+    align-self: flex-start;
+    cursor: pointer;
+  }
+
+  .picOne {
+    display: flex;
+    max-height: 95vh;
+    max-width: 80%;
+    margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
   }

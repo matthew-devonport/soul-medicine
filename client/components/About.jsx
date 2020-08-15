@@ -9,14 +9,14 @@ class About extends React.Component {
     render() {
         return (
             <React.Fragment>
-                <div className="background">
+                <div className="aboutBackground">
                     <div className="contactHeader">
                         <div>
-                        <div className="mainFlex">
+                        <div className="contactTitleFlex">
                             <img src="./img/logo.png" alt="Main Logo" className="aboutLogo"></img>
                             <div className="navLinks">
                             <Link to="/" className="gradient navLink">HOME</Link>
-                                <a className="gradient navLink">GALLERY</a>
+                            <Link to="/gallery" className="gradient navLink">GALLERY</Link>
                                 <Link to="/contact" className="gradient navLink">CONTACT</Link>
                                 <a href="https://soulmedicine.bandcamp.com/" target="_blank" className="gradient navLink">MEDITATION</a>
                             </div>
@@ -27,7 +27,7 @@ class About extends React.Component {
                     </div>
                     <div className="aboutBody">
                         <div className="bodyMargin">
-                            <div className="picWrap">
+                            <div className="faceWrap">
                         <img src="./img/about-pic.jpg" alt="about pic" className="aboutPic"></img>
                         </div>
                             <div className="bodyText">Soul Medicine is an owner-operated business of Carol McMillan.<br /><br />
