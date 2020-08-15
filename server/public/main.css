@@ -149,6 +149,18 @@ a {
   font-size: 15px;
 }
 
+@media screen and (max-width: 450px) { 
+  .footerInfo {
+    font-size: 11px;
+  }
+  }   
+
+  @media screen and (max-width: 380px) { 
+    .footerInfo {
+      font-size: 12px;
+    }
+    }  
+
 .footerFlex {
   display: flex;
   justify-content: center;
@@ -174,9 +186,24 @@ a {
   .navLinks {
     width: 53vw;
     font-size: 2vw;
+    padding-top: 0;
    }
   }
 
+  @media screen and (max-width: 450px) { 
+    .navLinks {
+      width: 70vw;
+      font-size: 3vw;
+     }
+    }
+
+    @media screen and (max-width: 380px) { 
+      .navLinks {
+        width: 80vw;
+        max-width: 80vw;
+        font-size: 3.4vw;
+       }
+      }    
 
 .navLink {
   margin-left: 2.5%;
@@ -201,6 +228,14 @@ a {
 width: 36vw;
  }
 }
+
+@media screen and (max-width: 380px) { 
+  .aboutLogo {
+    width: 44vw;
+   }
+  }
+
+
 
 .aboutTitle {
   display: flex;
@@ -514,8 +549,13 @@ width: 36vw;
     height: 45%;
     margin-top: 7%
   }
-  
 } 
+
+@media screen and (max-width: 450px) { 
+  .galleryBody {
+    height: 57%;
+  }
+  }   
 
 
 .galleryTitle {
@@ -540,6 +580,14 @@ width: 36vw;
    }
   }
 
+@media screen and (max-width: 450px) { 
+  .galleryTitle {
+    font-size: 7vw;
+   }
+  }  
+
+
+
   .picWrap {
     display: flex;
     flex-wrap: wrap;
@@ -563,6 +611,12 @@ width: 36vw;
   }
 }
 
+@media screen and (max-width: 380px) { 
+  .pics {
+    padding: 0 10px;
+    }
+  }
+
   .pic {
     display: flex;
     flex-wrap: wrap;
@@ -576,10 +630,22 @@ width: 36vw;
     .pic {
       max-width: 30%;
       margin-top: 5%;
-    }
-    
+    }   
   }  
   
+  @media screen and (max-width: 450px) { 
+    .pic {
+      max-width: 45%;
+      margin-top: 5%;
+    }   
+  }
+  
+  @media screen and (max-width: 380px) { 
+    .pic {
+      max-width: 48%;
+    }
+    }  
+
   .pic img { 
     display: flex;
     padding-left: 7%;
