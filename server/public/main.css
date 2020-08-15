@@ -181,6 +181,38 @@ a {
   border-radius: 25px;
 }
 
+@media screen and (max-width: 1450px) { 
+  .contactBody {
+    margin-top: 4%;
+  }
+}
+
+@media screen and (max-width: 1050px) { 
+  .contactBody {
+    margin-top: 7%;
+    margin-bottom: 26%;
+  }
+} 
+
+@media screen and (max-width: 800px) { 
+  .contactBody {
+    margin-top: 7%;
+    margin-bottom: 17%;
+  }
+} 
+
+@media screen and (max-width: 450px) { 
+  .contactBody {
+    margin-bottom: 1.5%;
+  }
+  }   
+
+  @media screen and (max-width: 380px) { 
+    .contactBody {
+      margin-bottom: 4%;
+    }
+    }  
+
 
 .contactFlex {
   display: flex;
@@ -459,6 +491,26 @@ width: 36vw;
   margin-bottom: 1%;
 }
 
+@media screen and (max-width: 1050px) { 
+  .contactInfo {
+    font-size: 30px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+} 
+
+@media screen and (max-width: 800px) { 
+  .contactInfo {
+    font-size: 25px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+} 
+
 .phoneLogo {
   height: 150px;
   width: auto;
@@ -482,6 +534,13 @@ width: 36vw;
   /* margin-top: 1%; */
   border-radius: 25px;
 }
+
+
+@media screen and (max-width: 1050px) { 
+  .contactColumn {
+    margin-bottom: 5%;
+  }
+} 
 
 /*--- Responsive Layout --- */
 
