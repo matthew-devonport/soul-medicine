@@ -274,6 +274,12 @@ width: 36vw;
   }
   }
 
+  @media screen and (max-width: 800px) { 
+    .aboutPic {
+   height: 200px;
+    }
+    }  
+
 .aboutBody {
   display: flex;
   margin-left: 10%;
@@ -311,6 +317,13 @@ width: 36vw;
     font-weight: 300;
   }
   }
+
+  @media screen and (max-width: 1050px) { 
+    .bodyText {
+      font-size: 16px;
+    }
+    }  
+
 
 /* --- CONTACT --- */
 
