@@ -453,12 +453,11 @@ a {
 
   .galleryBody {
     display: flex;
+    flex-wrap: wrap;
     margin-left: 10%;
     margin-right: 10%;
     background-color: #1d608a;
     justify-content: space-evenly;
-    flex-wrap: wrap;
-    flex-direction: row;
     height: 38%;
     margin-top: 2%;
     border-radius: 25px;
@@ -466,9 +465,10 @@ a {
 
 
   .picWrap {
+    display: flex;
+    flex-wrap: wrap;
     width: 100%;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    align-items: center;
   }
 
   .pics {
@@ -482,14 +482,16 @@ a {
 }
   
   .pic {
+    display: flex;
+    flex-wrap: wrap;
     height: 100%;
-    max-width: 15%;
-    margin-bottom: 10px;
+    max-width: 20%;
     align-content: flex-start;
     vertical-align: middle;
   }
   
   .pic img { 
+    display: flex;
     padding-left: 7%;
     padding-right: 7%;
     width: 100%;
