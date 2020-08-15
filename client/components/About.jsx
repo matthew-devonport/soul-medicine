@@ -9,7 +9,7 @@ class About extends React.Component {
     render() {
         return (
             <React.Fragment>
-                <div className="background">
+                <div className="aboutBackground">
                     <div className="contactHeader">
                         <div>
                         <div className="contactTitleFlex">
