@@ -12,7 +12,7 @@ class About extends React.Component {
                 <div className="background">
                     <div className="contactHeader">
                         <div>
-                        <div className="mainFlex">
+                        <div className="contactTitleFlex">
                             <img src="./img/logo.png" alt="Main Logo" className="aboutLogo"></img>
                             <div className="navLinks">
                             <Link to="/" className="gradient navLink">HOME</Link>
@@ -27,7 +27,7 @@ class About extends React.Component {
                     </div>
                     <div className="aboutBody">
                         <div className="bodyMargin">
-                            <div className="picWrap">
+                            <div className="faceWrap">
                         <img src="./img/about-pic.jpg" alt="about pic" className="aboutPic"></img>
                         </div>
                             <div className="bodyText">Soul Medicine is an owner-operated business of Carol McMillan.<br /><br />

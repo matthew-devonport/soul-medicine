@@ -235,7 +235,9 @@ width: 36vw;
    }
   }
 
-
+.faceWrap {
+  width: 20%;
+}
 
 .aboutTitle {
   display: flex;
@@ -244,6 +246,13 @@ width: 36vw;
   font-size: 2vw;
   margin-top: 3.5%;
 }
+
+@media screen and (max-width: 1050px) { 
+  .aboutTitle {
+    font-size: 4vw;
+    margin-top: 4%;
+  }
+  }
 
 .aboutPic {
   height: 250px;
@@ -255,9 +264,15 @@ width: 36vw;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
-  margin-right: 2%;
+  margin-right: 13%;
 }
 
+@media screen and (max-width: 1050px) { 
+  .aboutPic {
+  margin-bottom: 1%;
+  margin-right: 21%;
+  }
+  }
 
 .aboutBody {
   display: flex;
@@ -268,9 +283,15 @@ width: 36vw;
   flex-wrap: wrap;
   flex-direction: row;
   height: auto;
-  /* margin-top: 1%; */
+  margin-top: 1%;
   border-radius: 25px;
 }
+
+@media screen and (max-width: 1050px) { 
+  .aboutBody {
+    margin-top: 3%;
+  }
+  }
 
 .bodyMargin {
   margin-left: 5%;
@@ -282,8 +303,14 @@ width: 36vw;
 .bodyText {
   font-size: 16px;
   font-weight: 400;
-
 }
+
+@media screen and (max-width: 1050px) { 
+  .bodyText {
+    font-size: 21px;
+    font-weight: 300;
+  }
+  }
 
 /* --- CONTACT --- */
 
@@ -504,6 +531,7 @@ width: 36vw;
       color: #40E0D0;
       cursor: pointer;
   }
+}
 
   @media screen and (max-width: 450px) {
     #popup-close {
