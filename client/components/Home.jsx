@@ -9,7 +9,7 @@ class Home extends React.Component {
         return (
             <React.Fragment>
             <div className="homeBackground">
-            <div className="mainFlex">
+            <div className="homeFlex">
             <img src="./img/logo.png" alt="Main Logo" className="mainLogo"></img>
             <div className="flexStatement"><i className="statement">"Empowering others with healing tools"</i>
             </div>
