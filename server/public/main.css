@@ -170,6 +170,14 @@ a {
   font-size: 1vw;
 }
 
+@media screen and (max-width: 1050px) { 
+  .navLinks {
+    width: 53vw;
+    font-size: 2vw;
+   }
+  }
+
+
 .navLink {
   margin-left: 2.5%;
   margin-right: 2.5%;
@@ -186,6 +194,12 @@ a {
   height: auto;
   text-align: center;
   margin-top: 3%;
+}
+
+@media screen and (max-width: 1050px) { 
+.aboutLogo {
+width: 36vw;
+ }
 }
 
 .aboutTitle {
@@ -414,6 +428,31 @@ a {
   color: #800000;
 }
 
+@media screen and (max-width: 1050px) {
+  #popup-close {
+    margin-right: 30px;
+    margin-top: -17px;
+    font-size: 7rem;
+
+  }
+
+  #popup-close-services {
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin-right: 12px;
+    margin-top: -8px;
+    -webkit-transition: all 200ms;
+    -o-transition: all 200ms;
+    transition: all 200ms;
+    font-size: 2rem;
+    font-weight: bold;
+    text-decoration: none;
+      color: #06768d;
+      cursor: pointer;
+  }
+  }
+
 @media screen and (max-width: 600px) {
   #popup-close {
     position: absolute;
@@ -470,6 +509,13 @@ a {
   }
 }
 
+@media screen and (max-width: 1050px) { 
+  .galleryBody {
+    height: 45%;
+    margin-top: 7%
+  }
+  
+} 
 
 
 .galleryTitle {
@@ -486,6 +532,13 @@ a {
     font-size: 3vw;
   }
 }
+
+@media screen and (max-width: 1050px) { 
+  .galleryTitle {
+    margin-top: 10.5%;
+    font-size: 5vw;
+   }
+  }
 
   .picWrap {
     display: flex;
@@ -504,6 +557,12 @@ a {
     margin-right: auto;
 }
   
+@media screen and (max-width: 1050px) { 
+.pics {
+    margin-bottom: 2%
+  }
+}
+
   .pic {
     display: flex;
     flex-wrap: wrap;
@@ -512,6 +571,14 @@ a {
     align-content: flex-start;
     vertical-align: middle;
   }
+
+  @media screen and (max-width: 1050px) { 
+    .pic {
+      max-width: 30%;
+      margin-top: 5%;
+    }
+    
+  }  
   
   .pic img { 
     display: flex;
