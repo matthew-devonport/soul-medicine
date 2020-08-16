@@ -32,6 +32,13 @@ a {
   width: auto;
 }
 
+@media screen and (max-width: 380px) and (max-height: 700px) {
+  .background {
+    height: 121vh;
+    width: auto;
+  }
+}
+
 .homeBackground {
     height: 100vh;
     width: auto;
@@ -64,7 +71,6 @@ a {
 
 @media screen and (max-width: 550px) {
   .homeFlex {
-    margin-top: -10%;
     height: 100vh;
     }
   }
@@ -772,7 +778,7 @@ width: 36vw;
     height: 38%;
     margin-top: 2%;
     border-radius: 25px;
-    margin-bottom: 5%;
+    margin-bottom: 2%;
   }
 
 
@@ -785,7 +791,8 @@ width: 36vw;
 @media screen and (max-width: 1050px) { 
   .galleryBody {
     height: 45%;
-    margin-top: 7%
+    margin-top: 7%;
+    margin-bottom: 7%;
   }
 } 
 
@@ -908,3 +915,29 @@ width: 36vw;
   position: absolute;
   top: 0; left: 0; bottom: 0; right: 0;
   }
+
+  /* --- Fixed Footer --- */
+
+  .fixedFooter {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    justify-content: center;
+    flex-direction: column;
+    font-weight: 300;
+    font-size: 1vw;
+    text-align: center;
+    padding-bottom: 0.5%;
+}
+
+@media screen and (max-width: 1100px) {
+  .fixedFooter {
+    font-size: 2vw;
+  }
+  }
+
+  @media screen and (max-width: 550px) {
+  .fixedFooter {
+    font-size: 2.8vw;
+  }
+  }      
