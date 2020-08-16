@@ -98,14 +98,6 @@ a {
   width: 100%;
 }
 
-.footer {
-    display: flex;
-    font-weight: 300;
-    font-size: 1vw;
-    text-align: center;
-    padding-bottom: 0.5%;
-}
-
 .homeLinks {
     display: flex;
     justify-content: center;
@@ -469,11 +461,6 @@ width: 36vw;
       padding-bottom: 3%;
     }
     }      
-    
-.aboutFooter {
-  display: flex;
-  text-align: center;
-}
 
 /* --- CONTACT --- */
 
@@ -579,9 +566,6 @@ width: 36vw;
     .link {
    font-size: 2.2vw;
     }
-    .footer {
-      font-size: 2vw;
-    }
     }
 
     @media screen and (max-width: 550px) {
@@ -608,9 +592,6 @@ width: 36vw;
       }
       .link {
      font-size: 3.7vw;
-      }
-      .footer {
-        font-size: 2.8vw;
       }
       }
 
