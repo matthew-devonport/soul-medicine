@@ -25,8 +25,11 @@ class About extends React.Component {
                         </div>
                     </div>
                     <div className="contactBody">
-                        <div className="contactInfo">We would love to hear from you!<br /><br /> 
-                        If you have any questions or queries, please click one of the preferred contact methods below!
+                        <div className="contactInfo">
+                        If you have any questions or queries please:<br /><br />
+                        Phone: 0211611540 <br /><br />
+                        Email: carolmcm@xtra.co.nz <br /><br />
+                        Or easily click one of the contact methods below!
                         </div>
                 <a href="tel:0211611540" className="contactColumn">
                <img src="./img/phone.png" alt="Phone Icon" className="phoneLogo"></img>  
