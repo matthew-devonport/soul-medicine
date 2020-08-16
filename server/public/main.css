@@ -116,7 +116,13 @@ a {
     margin-left: 3.5%;
     margin-right: 3.5%;
     cursor: pointer;
+}
 
+@media screen and (max-width: 450px) { 
+  .link {
+    margin-left: 3.1%;
+    margin-right: 3.1%;
+  }
 }
 
 .gradient:hover,
@@ -170,7 +176,6 @@ a {
   height: auto;
   border-radius: 25px;
   margin-top: 2%;
-  margin-bottom: 7.5%;
 }
 
 @media screen and (max-width: 1450px) { 
@@ -199,13 +204,6 @@ a {
     margin-right: 5%;
   }
   }   
-
-  @media screen and (max-width: 380px) { 
-    .contactBody {
-      margin-bottom: 51%;
-    }
-    }  
-
 
 .contactFlex {
   display: flex;
@@ -265,7 +263,7 @@ a {
     .navLinks {
       width: 85vw;
       max-width: 85vw;
-      font-size: 3vw;
+      font-size: 2.8vw;
      }
     }
 
@@ -273,7 +271,7 @@ a {
       .navLinks {
         width: 90vw;
         max-width: 90vw;
-        font-size: 3.4vw;
+        font-size: 3.2vw;
        }
       }    
 
@@ -592,7 +590,7 @@ width: 36vw;
        padding-bottom: 1.2%;
       }
       .link {
-     font-size: 3.7vw;
+     font-size: 3.5vw;
       }
       }
 
