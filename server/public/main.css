@@ -61,6 +61,7 @@ a {
   .homeFlex {
         height: auto;
         padding-top: 22%;
+        margin-bottom: 10%;
       }
    }  
 
@@ -68,6 +69,7 @@ a {
   .homeFlex {
     height: 90vh;
     padding-top: 0;
+    margin-bottom: 0;
     }
   }
    
@@ -238,7 +240,9 @@ a {
 
 .footerFlex {
   display: flex;
+  background-color: rgba(39, 172, 220, 0.671);
   justify-content: center;
+  position: sticky;
 }
 
 /* --- NAV LINKS --- */
@@ -300,6 +304,7 @@ a {
 @media screen and (max-width: 450px) { 
   .aboutBackground {
     height: auto;
+    padding-bottom: 7%;
   }
   } 
 
@@ -386,7 +391,7 @@ width: 36vw;
   flex-wrap: wrap;
   flex-direction: row;
   height: auto;
-  margin-top: 1%;
+  margin-top: 2%;
   border-radius: 25px;
   margin-bottom: 3%;
 }
@@ -408,9 +413,9 @@ width: 36vw;
 @media screen and (max-width: 450px) { 
   .aboutBody {
     margin-top: 7%;
-    margin-bottom: 10%;
     margin-left: 5%;
     margin-right: 5%;
+    margin-bottom: 0;
   }
   }
 

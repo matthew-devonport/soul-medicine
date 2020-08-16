@@ -1,5 +1,4 @@
 import React from 'react'
-import FixedFooter from './FixedFooter'
 import { HashRouter as NavLink, Link } from 'react-router-dom';
 
 
@@ -35,9 +34,6 @@ class About extends React.Component {
                <a href="mailto:carolmcm@xtra.co.nz"  className="contactColumn">  
                <img src="./img/email.png" alt="Email Icon" className="emailLogo"></img>
                </a>
-                    </div>
-                    <div className="footerFlex">
-                        <FixedFooter />
                     </div>
                 </div>
             </React.Fragment>
