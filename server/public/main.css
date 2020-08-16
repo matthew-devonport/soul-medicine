@@ -44,11 +44,6 @@ a {
     width: auto;
   }
 
-  @media screen and (max-width: 450px) { 
-.homeBackground {
-      height: auto;
-    }
-    }   
 
 
 .homeFlex {
@@ -65,12 +60,14 @@ a {
 @media screen and (max-width: 1100px) { 
   .homeFlex {
         height: auto;
+        padding-top: 22%;
       }
    }  
 
 @media screen and (max-width: 550px) {
   .homeFlex {
-    height: 100vh;
+    height: 90vh;
+    padding-top: 0;
     }
   }
    
@@ -797,7 +794,7 @@ width: 36vw;
 
   @media screen and (max-width: 380px) { 
     .galleryBody {
-      margin-bottom: 4%;
+      margin-bottom: 6%;
     }
     }  
 
