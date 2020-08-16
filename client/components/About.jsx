@@ -1,5 +1,4 @@
 import React from 'react'
-import Footer from './Footer'
 import { HashRouter as NavLink, Link } from 'react-router-dom';
 
 
@@ -48,9 +47,6 @@ class About extends React.Component {
                         reactive to the negative impact of life’s demands, and will feel empowered to take responsibility for your own healing journey.
                         </div>
                         </div>
-                    </div>
-                    <div className="footerFlex">
-                        <Footer />
                     </div>
                 </div>
             </React.Fragment>
