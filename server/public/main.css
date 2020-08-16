@@ -263,7 +263,8 @@ a {
 
   @media screen and (max-width: 450px) { 
     .navLinks {
-      width: 80vw;
+      width: 85vw;
+      max-width: 85vw;
       font-size: 3vw;
      }
     }
