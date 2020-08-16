@@ -1,5 +1,5 @@
 import React from 'react'
-import FixedFooter from './FixedFooter'
+import Footer from './Footer'
 import { HashRouter as NavLink, Link } from 'react-router-dom';
 
 class Home extends React.Component {
@@ -21,7 +21,7 @@ class Home extends React.Component {
             </div>
             </div>
             <div className="footerFlex">
-            <FixedFooter />
+            <Footer />
             </div>
             </div>
             </React.Fragment>
