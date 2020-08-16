@@ -32,6 +32,13 @@ a {
   width: auto;
 }
 
+@media screen and (max-width: 380px) and (max-height: 700px) {
+  .background {
+    height: 121vh;
+    width: auto;
+  }
+}
+
 .homeBackground {
     height: 100vh;
     width: auto;

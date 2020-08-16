@@ -1,5 +1,5 @@
 import React from 'react'
-import FixedFooter from './FixedFooter'
+import Footer from './Footer'
 import PopUpBox from "./PopUpBox"
 
 import { HashRouter as NavLink, Link } from 'react-router-dom';
@@ -64,7 +64,7 @@ class About extends React.Component {
                     </div>
                     </div>
                     <div className="footerFlex">
-                        <FixedFooter />
+                        <Footer />
                     </div>
                 </div>
                 {this.state.popupImageId !== null && (
