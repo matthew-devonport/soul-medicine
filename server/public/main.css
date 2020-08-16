@@ -778,7 +778,7 @@ width: 36vw;
     height: 38%;
     margin-top: 2%;
     border-radius: 25px;
-    margin-bottom: 5%;
+    margin-bottom: 2%;
   }
 
 
@@ -791,7 +791,8 @@ width: 36vw;
 @media screen and (max-width: 1050px) { 
   .galleryBody {
     height: 45%;
-    margin-top: 7%
+    margin-top: 7%;
+    margin-bottom: 7%;
   }
 } 
 

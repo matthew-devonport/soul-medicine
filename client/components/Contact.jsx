@@ -1,5 +1,5 @@
 import React from 'react'
-import FixedFooter from './Footer'
+import FixedFooter from './FixedFooter'
 import { HashRouter as NavLink, Link } from 'react-router-dom';
 
 
