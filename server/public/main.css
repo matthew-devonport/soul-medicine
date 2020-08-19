@@ -390,9 +390,12 @@ width: 36vw;
 @media screen and (max-width: 1050px) { 
   .aboutBody {
     margin-top: 5%;
-    margin-bottom: 10%;
+    margin-bottom: 3%;
+    padding-bottom: 2%;
+}
+
   }
-  }
+  
 
 @media screen and (max-width: 800px) { 
   .aboutBody {
@@ -433,7 +436,7 @@ width: 36vw;
 
 @media screen and (max-width: 1050px) { 
   .bodyText {
-    font-size: 21px;
+    font-size: 20px;
     font-weight: 300;
     margin-top: -32%
   }
