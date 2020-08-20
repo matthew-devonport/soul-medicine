@@ -4,15 +4,15 @@ import PopUpBox from "./PopUpBox"
 import { HashRouter as NavLink, Link } from 'react-router-dom';
 
 const images = [
-    { id: 1, thumbnail: "/img/1-1.jpg", fullSize: "/img/1-2.jpg" },
-    { id: 2, thumbnail: "/img/2-1.jpg", fullSize: "/img/2-2.jpg" },
-    { id: 3, thumbnail: "/img/3-1.jpg", fullSize: "/img/3-2.jpg" },
-    { id: 4, thumbnail: "/img/4-1.jpg", fullSize: "/img/4-2.jpg" },
-    { id: 5, thumbnail: "/img/5-1.jpg", fullSize: "/img/5-2.jpg" },
+    { id: 1, thumbnail: "./img/1-1.jpg", fullSize: "./img/1-2.jpg" },
+    { id: 2, thumbnail: "./img/2-1.jpg", fullSize: "./img/2-2.jpg" },
+    { id: 3, thumbnail: "./img/3-1.jpg", fullSize: "./img/3-2.jpg" },
+    { id: 4, thumbnail: "./img/4-1.jpg", fullSize: "./img/4-2.jpg" },
+    { id: 5, thumbnail: "./img/5-1.jpg", fullSize: "./img/5-2.jpg" },
 ]
 
 
-class About extends React.Component {
+class Gallery extends React.Component {
 
     constructor(props) {
         super(props)
@@ -83,4 +83,4 @@ class About extends React.Component {
 }
 
 
-export default About
+export default Gallery
